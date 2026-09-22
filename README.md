@@ -1,9 +1,13 @@
 
 # Honeypot Project
 
-A hands-on cybersecurity project focused on deploying a honeypot, capturing malicious activity, and analysing real-world attack behaviour.
-
-The project was designed to simulate an exposed system and observe how attackers interact with it, providing practical experience with **threat detection, log analysis, SSH security, network activity, and incident investigation**.
+A production-grade SSH honeypot deployed on AWS EC2 to capture and analyze real-world attack patterns, credential spraying campaigns, and attacker reconnaissance behavior.
+Overview
+This project demonstrates detection engineering and threat intelligence principles by deploying a deliberate decoy SSH server that attracts and logs attacker activity. The honeypot captures login attempts, failed authentication patterns, and reconnaissance traffic from internet-wide scanning infrastructure and targeted botnet campaigns.
+Deployment: AWS EC2 (t2.micro, Free Tier)
+Honeypot Software: Cowrie SSH Honeypot v3.0
+Data Collection: 250+ events across 40+ unique attacking IPs
+Analysis: Credential clustering, geographic attribution, threat intelligence correlation
 
 ## Project Overview
 
