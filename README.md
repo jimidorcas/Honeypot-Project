@@ -73,7 +73,7 @@ Practised turning large volumes of security events into actionable information.
 
 Documented the deployment, observations, findings, and analysis in a reproducible format.
 
-## Example Analysis
+## Analysis
 
 A simplified view of the captured activity:
 
